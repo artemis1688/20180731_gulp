@@ -1,0 +1,11 @@
+body {
+  color: purple; }
+
+.card {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-filter: blur(15px);
+          filter: blur(15px); }
+
+/*# sourceMappingURL=all.css.map */

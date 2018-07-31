@@ -1,0 +1,1 @@
+{"version":3,"sources":["all.sass"],"names":[],"mappings":"AAEA;EACI,cAHkB,EAGM;;AAE5B;EACI,iCAAwB;MAAxB,6BAAwB;UAAxB,yBAAwB;EACxB,2BAAkB;UAAlB,mBAAkB,EAAG","file":"all.css","sourcesContent":["$primary-color: purple;\n\nbody {\n    color: $primary-color; }\n\n.card {\n    transform: rotate(45deg);\n    filter: blur(15px); }\n"]}
