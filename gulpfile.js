@@ -77,12 +77,12 @@ gulp.task('babel', () =>
 		.pipe($.babel({
 			presets: ['es2017-node7']
 		}))
-		//幫js壓縮
-		// .pipe($.if(options.env === 'production', $.uglify({
-		// 	compress: {
-		// 		drop_console: true
-		// 	}
-		// })))
+		幫js壓縮
+		.pipe($.if(options.env === 'production', $.uglify({
+			compress: {
+				drop_console: true
+			}
+		})))
 		.pipe($.sourcemaps.write('.'))
 		.pipe(gulp.dest('./public/js'))
 		.pipe(browserSync.stream())
