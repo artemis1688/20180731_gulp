@@ -1,0 +1,23 @@
+{
+  "name": "project_gulp_20180705",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "artemis1688 <artemis01168@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "venders",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^3.3.1",
+    "bootstrap": "^4.1.2",
+    "vue": "^2.5.16"
+  }
+}
